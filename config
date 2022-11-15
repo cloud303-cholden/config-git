@@ -14,7 +14,4 @@
   set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 [commit]
 	gpgsign = true
-	template = $HOME/.gitmessage
-[git-mob]
-	co-author = cloud303-cholden <80974257+cloud303-cholden@users.noreply.github.com>
-	co-author = benjibo <12396994-benjibo@users.noreply.gitlab.com>
+	template = ~/.config/git/gitmessage
