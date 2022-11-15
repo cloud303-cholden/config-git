@@ -1,7 +1,8 @@
 [core]
-  editor=nvim
+  editor = nvim
+  commentChar = ":"
 [init]  
-  defaultBranch=main
+  defaultBranch = main
 [gpg]
 	program = gpg2
 [user]
