@@ -12,7 +12,10 @@
   undo-commit = reset --soft HEAD^
   poh = push -u origin HEAD
   pulloh = pull origin HEAD
+  l = log --oneline
   set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+  main = !git checkout main && git pull
+  last = !git log --pretty=format:'%s' -n 1 | xsel -b
 [commit]
 	gpgsign = true
 	template = ~/.config/git/gitmessage
